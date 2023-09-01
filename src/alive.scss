@@ -1,0 +1,83 @@
+.cb-widget__cobertura--badge {
+  position: relative;
+  background-color: #ff1616;
+  border-radius: 5px;
+  display: inline-flex;
+  // padding: var(--spacing-10) var(--spacing-20);
+  padding: 10px;
+  gap: 10px;
+
+  .label__text {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-family: var(--font-family-book), var(--font-family-book-fallback);
+    // font-size: var(--font-size-10-responsive-book);
+    // letter-spacing: var(--font-size-10-responsive-book-letter-spacing);
+    // line-height: var(--font-line-height-compact);
+    // font-weight: var(--font-weight-semibold);
+    // font-variation-settings: var(--font-variation-settings-book-normal-roman);
+    font-feature-settings: var(--font-feature-settings-book-roman);
+    position: relative;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    font-variation-settings: 'wdth' 75;
+
+    &.blink {
+      animation: blink 1.4s infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      transform: translateZ(0) scale(1);
+      // -moz-backface-visibility: hidden;
+    }
+  }
+
+  .label__icon {
+    background-size: cover;
+    width: 20px;
+
+    &.blink {
+      animation: blink 1.4s infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      transform: translateZ(0) scale(1);
+      // -moz-backface-visibility: hidden;
+    }
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+//Não funcionou porque não consigo fazer o pseudoelemento e o texto piscar junto.
+
+/*
+.cb-widget__cobertura--badge::before {
+  display: flex;
+  content: '';
+  background-image: url('alive-icon.svg');
+  background-repeat: no-repeat;
+  background-color: red;
+  background-size: 24px 18px;
+  background-position: center center;
+  width: 40px;
+  height: 38.4px;
+  border-radius: 5px 0 0 5px;
+  margin-left: -40px; 
+  margin-top: -10px; 
+  position: absolute; 
+}
+*/
