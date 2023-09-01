@@ -3,20 +3,12 @@
   background-color: #ff1616;
   border-radius: 5px;
   display: inline-flex;
-  // padding: var(--spacing-10) var(--spacing-20);
   padding: 10px;
   gap: 10px;
 
   .label__text {
     color: #fff;
     display: inline-block;
-    float: left;
-    font-family: var(--font-family-book), var(--font-family-book-fallback);
-    // font-size: var(--font-size-10-responsive-book);
-    // letter-spacing: var(--font-size-10-responsive-book-letter-spacing);
-    // line-height: var(--font-line-height-compact);
-    // font-weight: var(--font-weight-semibold);
-    // font-variation-settings: var(--font-variation-settings-book-normal-roman);
     font-feature-settings: var(--font-feature-settings-book-roman);
     position: relative;
     text-transform: uppercase;

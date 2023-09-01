@@ -27,16 +27,7 @@ export default function App() {
           Cobertura ao vivo do lançamento da nova coleção de primavera-verão da
           grife "Will be Mine"
         </h1>
-        <h2
-          class="content-head__subtitle"
-          data-acceptance="subtitulo"
-          data-js="subheader"
-        >
-          O evento está acontecendo no São Paulo Fashion Week.
-        </h2>
       </div>
-
-      <div></div>
     </div>
   );
 }

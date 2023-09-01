@@ -20,15 +20,26 @@ body {
 
 .propaganda-retangular {
   width: 312px;
-  height: 50px;
   background-color: lightgray;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   margin: 20px 0 20px 0;
+  display: inline-block;
 }
 
 .sharebar {
   display: flex;
   justify-content: flex-end;
   height: 50px;
+}
+
+.content-head__title {
+  //styleName: Globotipo/Display/Large;
+  // font-family: Globotipo;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.045em;
+  text-align: left;
+  font-variation-settings: 'wdth' 70;
 }

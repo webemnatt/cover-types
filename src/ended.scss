@@ -1,0 +1,22 @@
+.cb-widget__cobertura--badge {
+  position: relative;
+  background-color: #979797;
+  border-radius: 5px;
+  display: inline-flex;
+  padding: 10px;
+  gap: 10px;
+
+  .label__text {
+    color: #fff;
+    display: inline-block;
+    font-feature-settings: var(--font-feature-settings-book-roman);
+    position: relative;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    font-variation-settings: 'wdth' 75;
+  }
+}
