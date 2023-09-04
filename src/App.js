@@ -7,7 +7,9 @@ export default function App() {
     <div>
       <div class="content-head medium-centered medium-24 large-20 xlarge-12">
         <div data-js="cb-page-root"></div>
-        <div class="content-image"></div>
+        <div class="content-image">
+          <img class="surImage" src="background.svg" alt="surf" />
+        </div>
         <div class="content-ad">
           <div class="propaganda-retangular">propaganda</div>
         </div>
