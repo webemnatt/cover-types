@@ -1,0 +1,26 @@
+.row.content-branded-content {
+}
+
+.column.medium-centered.medium-19.large-18.branded-content-signature__top {
+  width: Hug (132px);
+  height: Hug (24px);
+  padding: 4px 8px 4px 8px;
+  border-radius: 4px;
+  gap: 4px;
+  display: inline-flex;
+  background: #f6a622;
+}
+
+.branded-content-label {
+  color: #ffffff;
+  display: inline-block;
+  font-feature-settings: var(--font-feature-settings-book-roman);
+  position: relative;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  font-variation-settings: 'wdth' 75;
+}
