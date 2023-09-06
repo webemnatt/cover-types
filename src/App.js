@@ -37,8 +37,7 @@ export default function App() {
               data-acceptance="titulo"
               data-js="header"
             >
-              Cobertura ao vivo do lançamento da nova coleção de primavera-verão
-              da grife "Will be Mine"
+              Cobertura ao vivo com título longo
             </h1>
           </div>
         </div>

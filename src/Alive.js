@@ -7,15 +7,16 @@ export default function Alive() {
       <div class="cb-widget__cobertura">
         <div
           id="widget-cobertura-badge"
-          class="cb-widget__cobertura--badge cb-widget__cobertura--state-live"
+          class="cb-widget__cobertura--badge cb-widget__cobertura--state-ended
+          "
           data-state-ended=""
         >
-          <img
+          {/* <img
             class="label__icon blink"
             src="alive-icon.svg"
             alt="ícone ao vivo"
           />
-          <span class="label__text blink">Ao vivo</span>
+          <span class="label__text blink">Ao vivo</span> */}
         </div>
       </div>
     </div>
