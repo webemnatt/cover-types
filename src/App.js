@@ -2,6 +2,7 @@ import React from 'react';
 import Alive from './Alive.js';
 import Background from './Background.js';
 import SpecialAds from './SpecialAds.js';
+import { Title } from './Title.js';
 import Video from './Video.js';
 import './style.scss';
 
@@ -32,13 +33,9 @@ export default function App() {
               <SpecialAds />
               <div class="live-at">Transmitido ao vivo em 12/05/2022 06h27</div>
             </div>
-            <h1
-              class="content-head__title"
-              data-acceptance="titulo"
-              data-js="header"
-            >
-              Cobertura ao vivo com título longo
-            </h1>
+            <Title text="Com 11 brasileiros, WSL define surfistas que estarão no Circuito Mundial de Surfe em 2023" />
+            {/* <Title text="WSL define surfistas que estarão no Circuito Mundial" /> */}
+            {/* <Title text="Surfe: Rio Pro 2023" /> */}
           </div>
         </div>
         {/* <Video /> */}

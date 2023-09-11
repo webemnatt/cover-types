@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.scss';
+// import './style.scss';
 
 export default function Alive() {
   return (
@@ -7,8 +7,7 @@ export default function Alive() {
       <div class="cb-widget__cobertura">
         <div
           id="widget-cobertura-badge"
-          class="cb-widget__cobertura--badge cb-widget__cobertura--state-ended
-          "
+          class="cb-widget__cobertura--badge cb-widget__cobertura--state-live"
           data-state-ended=""
         >
           {/* <img
