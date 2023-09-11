@@ -2,21 +2,37 @@ import React from 'react';
 import './style.scss';
 
 export const Title = ({ text }) => {
-  const getFontSize = (textLength) => {
+  const getStyles = (textLength) => {
+    let fontSize;
+    let lineHeight;
+    let letterSpacing;
+
     if (textLength <= 20) {
-      return '32px';
+      fontSize = '32px';
+      lineHeight = '36px';
+      letterSpacing = '-0.045em';
     } else if (textLength <= 52) {
-      return '24px';
+      fontSize = '24px';
+      lineHeight = '28px';
+      letterSpacing = '-0.035em';
     } else if (textLength <= 90) {
-      return '20px';
+      fontSize = '20px';
+      lineHeight = '24px';
+      letterSpacing = '-0.025em';
     } else {
-      return '20px'; // Defina o tamanho padrão para textos muito longos
+      fontSize = '20px';
+      lineHeight = '24px';
+      letterSpacing = '-0.025em';
     }
+
+    return {
+      fontSize,
+      letterSpacing,
+      lineHeight,
+    };
   };
 
-  const titleStyle = {
-    fontSize: getFontSize(text.length),
-  };
+  const titleStyle = getStyles(text.length);
 
   return (
     <h1 className="content-head__title" style={titleStyle}>

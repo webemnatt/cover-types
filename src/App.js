@@ -1,10 +1,16 @@
 import React from 'react';
 import Alive from './Alive.js';
 import Background from './Background.js';
+import Ended from './Ended.js';
 import SpecialAds from './SpecialAds.js';
 import { Title } from './Title.js';
 import Video from './Video.js';
 import './style.scss';
+
+const text20 = 'Surfe: Rio Pro 2023';
+const text52 = 'WSL define surfistas que estarão no Circuito Mundial';
+const text90 =
+  'Com 11 brasileiros, WSL define surfistas que estarão no Circuito Mundial de Surfe em 2023';
 
 export default function App() {
   return (
@@ -31,11 +37,9 @@ export default function App() {
             <div class="container_tag-area">
               <Alive />
               <SpecialAds />
-              <div class="live-at">Transmitido ao vivo em 12/05/2022 06h27</div>
+              <Ended />
             </div>
-            <Title text="Com 11 brasileiros, WSL define surfistas que estarão no Circuito Mundial de Surfe em 2023" />
-            {/* <Title text="WSL define surfistas que estarão no Circuito Mundial" /> */}
-            {/* <Title text="Surfe: Rio Pro 2023" /> */}
+            <Title text={text20} />
           </div>
         </div>
         {/* <Video /> */}
